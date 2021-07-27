@@ -1,0 +1,26 @@
+2021-07-15 11:50:32,490-test_logger.py-[line:40]-INFO-test_logger-x+y的结果信息
+2021-07-27 10:13:35,368-test_logger.py-[line:40]-INFO-test_logger-x+y的结果信息
+2021-07-27 10:13:35,918-remote_connection.py-[line:388]-DEBUG-remote_connection-POST http://127.0.0.1:52535/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-07-27 10:13:35,919-connectionpool.py-[line:231]-DEBUG-connectionpool-Starting new HTTP connection (1): 127.0.0.1:52535
+2021-07-27 10:13:36,694-connectionpool.py-[line:461]-DEBUG-connectionpool-http://127.0.0.1:52535 "POST /session HTTP/1.1" 200 753
+2021-07-27 10:13:36,695-remote_connection.py-[line:440]-DEBUG-remote_connection-Finished Request
+2021-07-27 10:13:36,696-logger.py-[line:46]-INFO-logger-Function:[test_001_login], args:(<public.pages.test_login.Test_Login testMethod=test_001_login>,), kwargs:{}
+2021-07-27 10:13:36,697-remote_connection.py-[line:388]-DEBUG-remote_connection-POST http://127.0.0.1:52535/session/52ed2f09b91403fb7b5d63f4f8b000c5/url {"url": "http://192.168.31.201:8090/forum.php"}
+2021-07-27 10:13:40,144-connectionpool.py-[line:461]-DEBUG-connectionpool-http://127.0.0.1:52535 "POST /session/52ed2f09b91403fb7b5d63f4f8b000c5/url HTTP/1.1" 500 1383
+2021-07-27 10:13:40,145-remote_connection.py-[line:440]-DEBUG-remote_connection-Finished Request
+2021-07-27 10:13:44,245-remote_connection.py-[line:388]-DEBUG-remote_connection-POST http://127.0.0.1:52535/session/52ed2f09b91403fb7b5d63f4f8b000c5/element {"using": "xpath", "value": "//*[@id=\"um\"]/p[1]/a[2]"}
+2021-07-27 10:13:50,243-test_logger.py-[line:40]-INFO-test_logger-x+y的结果信息
+2021-07-27 10:13:50,803-remote_connection.py-[line:388]-DEBUG-remote_connection-POST http://127.0.0.1:61285/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-07-27 10:13:50,804-connectionpool.py-[line:231]-DEBUG-connectionpool-Starting new HTTP connection (1): 127.0.0.1:61285
+2021-07-27 10:13:51,516-connectionpool.py-[line:461]-DEBUG-connectionpool-http://127.0.0.1:61285 "POST /session HTTP/1.1" 200 753
+2021-07-27 10:13:51,516-remote_connection.py-[line:440]-DEBUG-remote_connection-Finished Request
+2021-07-27 10:13:51,517-logger.py-[line:46]-INFO-logger-Function:[test_001_login], args:(<public.pages.test_login.Test_Login testMethod=test_001_login>,), kwargs:{}
+2021-07-27 10:13:51,517-remote_connection.py-[line:388]-DEBUG-remote_connection-POST http://127.0.0.1:61285/session/fd5875d0716607fbed7315367f88fdfd/url {"url": "http://192.168.31.201:8090/forum.php"}
+2021-07-27 10:14:33,836-connectionpool.py-[line:461]-DEBUG-connectionpool-http://127.0.0.1:61285 "POST /session/fd5875d0716607fbed7315367f88fdfd/url HTTP/1.1" 500 1164
+2021-07-27 10:14:33,837-remote_connection.py-[line:440]-DEBUG-remote_connection-Finished Request
+2021-07-27 10:14:37,863-remote_connection.py-[line:388]-DEBUG-remote_connection-POST http://127.0.0.1:61285/session/fd5875d0716607fbed7315367f88fdfd/element {"using": "xpath", "value": "//*[@id=\"um\"]/p[1]/a[2]"}
+2021-07-27 10:14:37,887-connectionpool.py-[line:461]-DEBUG-connectionpool-http://127.0.0.1:61285 "POST /session/fd5875d0716607fbed7315367f88fdfd/element HTTP/1.1" 404 1001
+2021-07-27 10:14:37,888-remote_connection.py-[line:440]-DEBUG-remote_connection-Finished Request
+2021-07-27 10:14:40,957-remote_connection.py-[line:388]-DEBUG-remote_connection-DELETE http://127.0.0.1:61285/session/fd5875d0716607fbed7315367f88fdfd {}
+2021-07-27 10:14:41,004-connectionpool.py-[line:461]-DEBUG-connectionpool-http://127.0.0.1:61285 "DELETE /session/fd5875d0716607fbed7315367f88fdfd HTTP/1.1" 200 14
+2021-07-27 10:14:41,005-remote_connection.py-[line:440]-DEBUG-remote_connection-Finished Request

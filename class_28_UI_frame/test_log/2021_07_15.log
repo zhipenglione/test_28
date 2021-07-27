@@ -1,0 +1,9 @@
+2021-07-15 14:39:38,971 - INFO : Function:[test_001_login], args:(<__main__.Test_Login testMethod=test_001_login>,), kwargs:{}
+2021-07-15 14:39:43,965 - INFO : Function:[test_001_login], Result: None
+2021-07-15 14:40:58,966 - INFO : Function:[test_001_login], args:(<__main__.Test_Login testMethod=test_001_login>,), kwargs:{}
+2021-07-15 14:41:03,053 - INFO : Function:[test_001_login], Result: 【新提醒】论坛 - Powered by Discuz!
+2021-07-15 14:43:32,323 - INFO : Function:[test_001_login], args:(<__main__.Test_Login testMethod=test_001_login>,), kwargs:{}
+2021-07-15 14:43:36,293 - INFO : Function:[test_001_login], Result: 【新提醒】论坛 - Powered by Discuz!
+2021-07-15 14:45:47,106 - INFO : Function:[test_001_login], args:(<__main__.Test_Login testMethod=test_001_login>,), kwargs:{}
+2021-07-15 14:45:50,797 - INFO : Function:[test_001_login], Result: 【新提醒】论坛 - Powered by Discuz!
+2021-07-15 14:46:04,430 - INFO : Function:[test_001_login], args:(<__main__.Test_Login testMethod=test_001_login>,), kwargs:{}
